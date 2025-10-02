@@ -9,8 +9,8 @@ class Program
         Customer cust1 = new Customer("Clarke David", addr1);
 
         Order order1 = new Order(cust1);
-        order1.AddProduct(new Product("Stulus Pen", 101, 1200, 1));
-        order1.AddProduct(new Product("Xbox", 102, 25, 2));
+        order1.AddProduct(new Product("Xbox", 101, 1200, 1));
+        order1.AddProduct(new Product("Stylus Pen", 102, 25, 2));
 
         // Second Order
         Address addr2 = new Address("45 Queen St", "Toronto", "ON", "Canada");
