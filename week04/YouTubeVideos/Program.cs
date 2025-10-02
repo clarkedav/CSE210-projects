@@ -4,7 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-    Console.WriteLine("Program started...");
 
         Video v1 = new Video("Learning C#", "Clarke David", 600);
         Video v2 = new Video("Funny Cats Compilation", "BestCatMoments", 300);
